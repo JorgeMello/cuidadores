@@ -23,7 +23,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 header("Location: dashboard.php");
                 exit();
             } else {
-                $error_message = "Invalid email or password!";
+                $error_message = "Suas credenciais estão erradas!";
             }
         }
     }
