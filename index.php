@@ -32,7 +32,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Membership Management - codeastro.com</title>
+  <title>CUIDADORES DE IDOSOS - LOGIN</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -50,12 +50,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <a href=""><b>Membership Management</b> System</a>
+    <a href=""><b>CUIDADORES DE IDOSOS </b> ENTRAR NO SISTEMA</a>
   </div>
   <!-- /.login-logo -->
   <div class="card">
     <div class="card-body login-card-body">
-      <p class="login-box-msg">Log in to start your session</p>
+      <p class="login-box-msg">Digite suas Credenciais</p>
 
       <?php
             if (isset($error_message)) {
@@ -65,7 +65,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
       <form action="" method="POST">
         <div class="input-group mb-3">
-          <input type="email" class="form-control" name="email" placeholder="Email">
+          <input type="email" class="form-control" name="email" placeholder="Digite o seu Email">
           <div class="input-group-append">
             <div class="input-group-text">
               <span class="fas fa-envelope"></span>
@@ -73,7 +73,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
           </div>
         </div>
         <div class="input-group mb-3">
-          <input type="password" class="form-control" name="password" placeholder="Password">
+          <input type="password" class="form-control" name="password" placeholder="Senha">
           <div class="input-group-append">
             <div class="input-group-text">
               <span class="fas fa-lock"></span>
@@ -85,13 +85,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <div class="icheck-primary">
               <input type="checkbox" id="remember">
               <label for="remember">
-                Remember Me
+                Manter conectado
               </label>
             </div>
           </div>
           <!-- /.col -->
           <div class="col-4">
-            <button type="submit" name="login" class="btn btn-success btn-block">Log In</button>
+            <button type="submit" name="login" class="btn btn-success btn-block">ENTRAR</button>
           </div>
           <!-- /.col -->
         </div>
