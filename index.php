@@ -7,7 +7,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $password = $_POST['password'];
 
         if (empty($email) || empty($password)) {
-            $error_message = "Email and password are required!";
+            $error_message = "Email e Senha devem ser preenchidos!";
         } else {
             $hashed_password = md5($password);
 

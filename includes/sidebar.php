@@ -65,10 +65,10 @@ function getLogoUrl()
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-          <img src="dist/img/2382414.png" class="img-circle elevation-2" alt="User Image">
+          <img src="dist/img/elderly caregiver group cuidador de idosos.jpg" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block">CodeAstro</a>
+          <a href="#" class="d-block">Elderly Group</a>
         </div>
       </div>
 
@@ -88,7 +88,7 @@ function getLogoUrl()
             <a href="#" class="nav-link <?php echo ($current_page == 'add_type.php' || $current_page == 'view_type.php' || $current_page == 'edit_type.php') ? 'active' : ''; ?>">
               <i class="nav-icon fas fa-th-list"></i>
               <p>
-                Membership Types
+                Tipos de Cuidadores
                 <i class="fas fa-angle-left right"></i>
                 <!-- <span class="badge badge-info right"><?php echo $totalCount; ?></span> -->
               </p>
@@ -97,13 +97,13 @@ function getLogoUrl()
               <li class="nav-item">
                 <a href="add_type.php" class="nav-link">
                   <i class="fas fa-circle-notch nav-icon"></i>
-                  <p>Add New</p>
+                  <p>Criar Novo</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="view_type.php" class="nav-link">
                   <i class="fas fa-circle-notch nav-icon"></i>
-                  <p>View and Manage</p>
+                  <p>Visualizar e Gerenciar</p>
                 </a>
               </li>
             </ul>
@@ -112,49 +112,49 @@ function getLogoUrl()
           <li class="nav-item">
             <a href="add_members.php" class="nav-link <?php echo ($current_page == 'add_members.php') ? 'active' : ''; ?>">
               <i class="nav-icon fas fa-users"></i>
-              <p>Add Members</p>
+              <p>Adicionar Cuidadores</p>
             </a>
           </li>
 
           <li class="nav-item">
             <a href="manage_members.php" class="nav-link <?php echo ($current_page == 'manage_members.php' || $current_page == 'edit_member.php' || $current_page == 'memberProfile.php') ? 'active' : ''; ?>">
               <i class="nav-icon fas fa-users-cog"></i>
-              <p>Manage Members</p>
+              <p>Gerenciar Cuidadores</p>
             </a>
           </li>
 
           <li class="nav-item">
             <a href="list_renewal.php" class="nav-link <?php echo ($current_page == 'list_renewal.php' || $current_page == 'renew.php') ? 'active' : ''; ?>">
             <i class="nav-icon fas fa-undo"></i>
-              <p>Renewal</p>
+              <p>Renovação</p>
             </a>
           </li>
 
           <li class="nav-item">
             <a href="report.php" class="nav-link <?php echo ($current_page == 'report.php') ? 'active' : ''; ?>">
               <i class="nav-icon fas fa-file-invoice"></i>
-              <p>Membership Report</p>
+              <p>Relatório de Cuidadores</p>
             </a>
           </li>
 
           <li class="nav-item">
             <a href="revenue_report.php" class="nav-link <?php echo ($current_page == 'revenue_report.php') ? 'active' : ''; ?>">
               <i class="nav-icon fas fa-money-check"></i>
-              <p>Revenue Report</p>
+              <p>Relatório Renovar</p>
             </a>
           </li>
 
           <li class="nav-item">
             <a href="settings.php" class="nav-link <?php echo ($current_page == 'settings.php') ? 'active' : ''; ?>">
               <i class="nav-icon fas fa-cogs"></i>
-              <p>Settings</p>
+              <p>Configurações</p>
             </a>
           </li>
 
           <li class="nav-item">
             <a href="logout.php" class="nav-link <?php echo ($current_page == 'logout.php') ? 'active' : ''; ?>">
               <i class="nav-icon fas fa-power-off"></i>
-              <p>Logout</p>
+              <p>Sair do Sistema</p>
             </a>
           </li>
 

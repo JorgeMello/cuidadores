@@ -6,33 +6,33 @@
                 <?php
                 
                 if (strpos($_SERVER['REQUEST_URI'], 'add_members.php') !== false) {
-                    $pageTitle = 'Add Members';
+                    $pageTitle = 'Criar Membro';
                 } elseif (strpos($_SERVER['REQUEST_URI'], 'view_type.php') !== false) {
-                    $pageTitle = 'Manage Membership Types';
+                    $pageTitle = 'Gerenciar tipos de Membros';
                 }  elseif (strpos($_SERVER['REQUEST_URI'], 'renew.php') !== false) {
-                    $pageTitle = 'Renew Membership';
+                    $pageTitle = 'Renovar Membro';
                 } elseif (strpos($_SERVER['REQUEST_URI'], 'edit_member.php') !== false) {
-                  $pageTitle = 'Edit Members';
+                  $pageTitle = 'Editar Membro';
                 } elseif (strpos($_SERVER['REQUEST_URI'], 'edit_type.php') !== false) {
-                  $pageTitle = 'Edit Membership Type';
+                  $pageTitle = 'Editar Tipos de Membros';
                 } elseif (strpos($_SERVER['REQUEST_URI'], 'list_renewal.php') !== false) {
-                  $pageTitle = 'Renewal';
+                  $pageTitle = 'Renovação de Membros';
                 } elseif (strpos($_SERVER['REQUEST_URI'], 'manage_members.php') !== false) {
-                  $pageTitle = 'Manage Members';
+                  $pageTitle = 'Gerenciar Membros';
                 } elseif (strpos($_SERVER['REQUEST_URI'], 'memberProfile.php') !== false) {
-                  $pageTitle = 'Member Profile';
+                  $pageTitle = 'Perfil do Membro';
                 } elseif (strpos($_SERVER['REQUEST_URI'], 'print_membership_card.php') !== false) {
-                  $pageTitle = 'Print Membership';
+                  $pageTitle = 'Imprimir Cartão de Membro';
                 } elseif (strpos($_SERVER['REQUEST_URI'], 'revenue_report.php') !== false) {
-                  $pageTitle = 'Revenue Report';
+                  $pageTitle = 'Relatório de Receita';
                 } elseif (strpos($_SERVER['REQUEST_URI'], 'report.php') !== false) {
-                  $pageTitle = 'Membership Report';
+                  $pageTitle = 'Relatório de Membros';
                 } elseif (strpos($_SERVER['REQUEST_URI'], 'settings.php') !== false) {
-                  $pageTitle = 'Settings';
+                  $pageTitle = 'Configurações';
                 } elseif (strpos($_SERVER['REQUEST_URI'], 'add_type.php') !== false) {
-                  $pageTitle = 'Add Membership Type';
+                  $pageTitle = 'Adicionar Tipos de Membros';
                 } elseif (strpos($_SERVER['REQUEST_URI'], 'dashboard.php') !== false) {
-                  $pageTitle = 'Dashboard';
+                  $pageTitle = 'Central de Controle';
                 }
                 
                 echo '<h1 class="m-0 text-dark">' . $pageTitle . '</h1>';

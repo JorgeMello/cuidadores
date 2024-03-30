@@ -2,7 +2,7 @@
 $fetchSystemNameQuery = "SELECT system_name FROM settings WHERE id = 1";
 $fetchSystemNameResult = $conn->query($fetchSystemNameQuery);
 
-$systemName = ($fetchSystemNameResult->num_rows > 0) ? $fetchSystemNameResult->fetch_assoc()['system_name'] : 'Membership System';
+$systemName = ($fetchSystemNameResult->num_rows > 0) ? $fetchSystemNameResult->fetch_assoc()['system_name'] : 'CUIDADORES DE IDOSOS';
 ?>
 
 <!DOCTYPE html>
