@@ -315,7 +315,7 @@ if ($fetchLogoResult->num_rows > 0) {
     </div>
     <!-- /.card-body -->
     <div class="card-footer text-center">
-        <a href="manage_members.php" class="uppercase">View All Members</a>
+        <a href="manage_members.php" class="uppercase">Visualizar Todos os Cuidadores</a>
     </div>
     <!-- /.card-footer -->
 </div>
