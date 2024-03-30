@@ -23,7 +23,7 @@ if ($countResult && $countResult->num_rows > 0) {
  <!-- Main Sidebar Container -->
  <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
-    <a href="" class="brand-link">
+    <a href="dashboard.php" class="brand-link">
     <img src="<?php echo getLogoUrl(); ?>" alt="Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
     <span class="brand-text font-weight-light"><?php echo getSystemName(); ?></span>
 </a>
@@ -40,7 +40,7 @@ function getSystemName()
         $systemNameRow = $systemNameResult->fetch_assoc();
         return $systemNameRow['system_name'];
     } else {
-        return 'CodeAstro';
+        return 'Elderly Group';
     }
 }
 
@@ -65,10 +65,10 @@ function getLogoUrl()
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-          <img src="dist/img/elderly caregiver group cuidador de idosos.jpg" class="img-circle elevation-2" alt="User Image">
+          <img src="dist/img/elderly caregiver group cuidador de idosos.jpg" class="img-circle elevation-2" alt="Cuidadores de Idosos">
         </div>
         <div class="info">
-          <a href="#" class="d-block">Elderly Group</a>
+          <a href="https://osidosos.com.br/" class="d-block">Elderly Group</a>
         </div>
       </div>
 
@@ -84,6 +84,21 @@ function getLogoUrl()
             </a>
           </li>
           
+     
+          <li class="nav-item">
+            <a href="add_members.php" class="nav-link <?php echo ($current_page == 'add_members.php') ? 'active' : ''; ?>">
+              <i class="nav-icon fas fa-users"></i>
+              <p>Adicionar Cuidadores</p>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="manage_members.php" class="nav-link <?php echo ($current_page == 'manage_members.php' || $current_page == 'edit_member.php' || $current_page == 'memberProfile.php') ? 'active' : ''; ?>">
+              <i class="nav-icon fas fa-users-cog"></i>
+              <p>Gerenciar Cuidadores</p>
+            </a>
+          </li>
+
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link <?php echo ($current_page == 'add_type.php' || $current_page == 'view_type.php' || $current_page == 'edit_type.php') ? 'active' : ''; ?>">
               <i class="nav-icon fas fa-th-list"></i>
@@ -107,20 +122,6 @@ function getLogoUrl()
                 </a>
               </li>
             </ul>
-          </li>
-        
-          <li class="nav-item">
-            <a href="add_members.php" class="nav-link <?php echo ($current_page == 'add_members.php') ? 'active' : ''; ?>">
-              <i class="nav-icon fas fa-users"></i>
-              <p>Adicionar Cuidadores</p>
-            </a>
-          </li>
-
-          <li class="nav-item">
-            <a href="manage_members.php" class="nav-link <?php echo ($current_page == 'manage_members.php' || $current_page == 'edit_member.php' || $current_page == 'memberProfile.php') ? 'active' : ''; ?>">
-              <i class="nav-icon fas fa-users-cog"></i>
-              <p>Gerenciar Cuidadores</p>
-            </a>
           </li>
 
           <li class="nav-item">
