@@ -20,7 +20,7 @@
                 } elseif (strpos($_SERVER['REQUEST_URI'], 'manage_members.php') !== false) {
                   $pageTitle = 'Gerenciar Membros';
                 } elseif (strpos($_SERVER['REQUEST_URI'], 'memberProfile.php') !== false) {
-                  $pageTitle = 'Perfil do Membro';
+                  $pageTitle = 'Perfil do Cuidador';
                 } elseif (strpos($_SERVER['REQUEST_URI'], 'print_membership_card.php') !== false) {
                   $pageTitle = 'Imprimir Cartão de Membro';
                 } elseif (strpos($_SERVER['REQUEST_URI'], 'revenue_report.php') !== false) {
